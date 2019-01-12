@@ -1,5 +1,6 @@
 # Optixal's Neovim init.vim
-
+# This is a fork of Optixal's great minimal config for Neovim which I really liked, so forked it to further customize it to my needs, Credit goes to Optixal!
+    
 Normal usage.
 
 ![Normal Usage Example](screenshots/screenshot1.png)
