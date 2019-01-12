@@ -1,5 +1,5 @@
 """ Optixal's Neovim Init.vim
-
+""" test
 """ Vim-Plug
 call plug#begin()
 
@@ -47,8 +47,6 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'metakirby5/codi.vim'
 
-" Entertainment
-Plug 'ryanss/vim-hackernews'
 
 call plug#end()
 
@@ -129,6 +127,7 @@ let g:tagbar_iconchars = ['↠', '↡']
 
 " fzf-vim
 let g:fzf_action = {
+  \ 'ctrl-q': 'bdelete',
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-s': 'split',
   \ 'ctrl-v': 'vsplit' }
@@ -227,9 +226,11 @@ nmap <leader>j :set filetype=journal<CR>
 nmap <leader>k :ColorToggle<CR>
 nmap <leader>l :Limelight!!<CR>
 xmap <leader>l :Limelight!!<CR>
-autocmd FileType python nmap <leader>x :0,$!~/.config/nvim/env/bin/python -m yapf<CR>
-nmap <leader>n :HackerNews best<CR>J
 nmap <silent> <leader><leader> :noh<CR>
-nmap <Tab> :bnext<CR>
-nmap <S-Tab> :bprevious<CR>
-
+nmap <Tab> :tabn<CR>
+nmap <S-Tab> :tabp<CR>
+""" map split switching to arrow keys
+nmap <up> <C-w>k
+nmap <down> <C-w>j
+nmap <left> <C-w>h
+nmap <right> <C-w>l

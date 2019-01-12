@@ -120,11 +120,11 @@ Most custom commands expand off my map leader, keeping nvim as vanilla as possib
 * `,j` - Set filetype to "journal" which makes the syntax highlighting beautiful when working on regular text files and markdown
 * `,k` - Toggle coloring of hex colors
 * `,l` - Toggle Limelight mode (Limelight), highlight the lines near cursor only
-* `,n` - Hackernews vertical windows (requires internet) (vim-hackernews)
 * `,c<Space>` - Toggle comment for current line (Nerd Commenter)
 * `<Alt-r>` - Toggle RGB color picker
-* `<Tab>` - Next buffer
-* `<Shift-Tab>` - Previous buffer
+* `<Tab>` - Next Tab
+* `<Shift-Tab>` - Previous Tab
+* <Arrow-Keys> - Move between splits
 
 More commmands at https://github.com/Optixal/.vim/blob/master/reference/commands_vim.txt
 
