@@ -204,8 +204,8 @@ endfunction
 """ Custom Mappings
 
 let mapleader=","
-nmap <leader>q :NERDTreeToggle<CR>
-nmap \ <leader>q
+nmap <leader>t :NERDTreeToggle<CR>
+nmap \ <leader>t
 nmap <leader>w :TagbarToggle<CR>
 nmap <leader>ee :Colors<CR>
 nmap <leader>ea :AirlineTheme 
@@ -214,7 +214,7 @@ nmap <leader>e2 :call ColorSeoul256()<CR>
 nmap <leader>e3 :call ColorForgotten()<CR>
 nmap <leader>e4 :call ColorZazen()<CR>
 nmap <leader>r :so ~/.config/nvim/init.vim<CR>
-nmap <leader>t :call TrimWhitespace()<CR>
+nmap <leader>q :call TrimWhitespace()<CR>
 xmap <leader>a gaip*
 nmap <leader>a gaip*
 nmap <leader>s <C-w>s<C-w>j:terminal<CR>
