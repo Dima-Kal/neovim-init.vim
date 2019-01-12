@@ -124,7 +124,7 @@ Most custom commands expand off my map leader, keeping nvim as vanilla as possib
 * `<Alt-r>` - Toggle RGB color picker
 * `<Tab>` - Next Tab
 * `<Shift-Tab>` - Previous Tab
-* <Arrow-Keys> - Move between splits
+* `<Arrow-Keys>` - Move between splits
 
 More commmands at https://github.com/Optixal/.vim/blob/master/reference/commands_vim.txt
 
