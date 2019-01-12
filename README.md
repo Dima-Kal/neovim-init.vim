@@ -99,7 +99,7 @@ cp init.vim ~/.config/nvim/
 Most custom commands expand off my map leader, keeping nvim as vanilla as possible.
 
 * `,` - Map leader, nearly all my custom mappings starts with pressing the comma key
-* `,q` - Sidebar filetree viewer (NERDTree)
+* `,t` - Sidebar filetree viewer (NERDTree)
 * `,w` - Sidebar classes, functions, variables list (TagBar)
 * `\`  - Toggle both NERDTree and TagBar
 * `,ee` - Change colorscheme (with fzf fuzzy finder)
@@ -109,7 +109,7 @@ Most custom commands expand off my map leader, keeping nvim as vanilla as possib
 * `,e3` - Color mode: Forgotten (Light)
 * `,e4` - Color mode: Zazen (Black & White)
 * `,r` - Refresh/source ~/.config/nvim/init.vim
-* `,t` - Trim all trailing whitespaces
+* `,q` - Trim all trailing whitespaces
 * `,a` - Auto align variables (vim-easy-align), eg. do `,a=` while your cursor is on a bunch of variables to align their equal signs
 * `,s` - New terminal in horizontal split
 * `,vs` - New terminal in vertical split
